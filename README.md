@@ -1,4 +1,4 @@
-# MLDS424 Generative AI - DCGAN Cartoon Image Generation
+#DCGAN Cartoon Image Generation
 
 A Deep Convolutional Generative Adversarial Network (DCGAN) implementation that generates high-quality cartoon images by following the architectural guidelines in the original DCGAN paper.
 
