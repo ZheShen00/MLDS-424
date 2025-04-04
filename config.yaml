@@ -1,0 +1,29 @@
+data_dir: "cartoonset10k"
+workers: 4
+batch_size: 128
+image_size: 64
+nc: 3
+nz: 100
+ngf: 64
+ndf: 64
+num_epochs: 30
+lr: 0.0002
+beta1: 0.5
+ngpu: 1
+save_interval: 250
+label_smoothing: 0.9
+weight_init_mean: 0.0
+weight_init_std: 0.02
+use_spectral_norm: true
+use_dropout: true 
+use_diff_lr: true 
+diff_lr_factor: 0.8
+
+g_updates_max: 2
+g_updates_threshold: 3.0 
+late_g_updates_max: 3 
+late_g_updates_threshold: 2.0
+
+use_diversity_loss: true
+diversity_loss_weight: 0.05
+diversity_loss_start_epoch: 5
